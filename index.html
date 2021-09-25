@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="D:static/css/style.css">
+    <title>javascript on steroids</title>
+</head>
+<body>
+  <div class="container-1">
+  <h2> Challenge 1: Your age in Days</h2>
+  <div class="flex-box-container-1">
+    <div>
+  <Button class="btn btn-primary" onCLick="ageInDays()">Click Me</Button>
+</div>
+<div>
+  <Button class="btn btn-danger" onClick="reset()">Reset</Button>
+</div>
+</div>
+<div class="flex-box-container-1">
+<div id='flex-box-result'></div>
+</div>
+</div>
+
+
+<div class="container-2" >
+<h2>Challenge 2: Flower Challenge</h2>
+<Button class="btn btn-success" id="generate flower" onClick="flowerGen()">Generate Flower</Button>
+<div class="flex-box-container-2" id="flex-gen-flower"> 
+   </div>
+</div>
+
+<div class="container-3">
+<h2>Challenge 3: rock,Paper,Scissors</h2>
+<div class="flex-box-rps" id="flex-box-container-rps">
+  <img id="rock" src="D:projects/rock.jpg"  alt="" Height=150 width=150 onClick="rpsGame(this)">
+  <img id="paper" src="D:/projects/paper.png" alt="" Height=150 widht=150 onClick="rpsGame(this)">
+  <img id="scissors" src="D:/projects/scissors.jpg" alt="" Height=150 widht=150 onClick="rpsGame(this)">
+</div>
+</div>
+
+ <script src="D:static/js/script.js"></script> 
+
+</body>
+</html>
