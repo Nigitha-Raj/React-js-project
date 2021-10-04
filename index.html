@@ -31,16 +31,39 @@
    </div>
 </div>
 
-<div class="container-3">
-<h2>Challenge 3: rock,Paper,Scissors</h2>
-<div class="flex-box-rps" id="flex-box-container-rps">
-  <img id="rock" src="D:projects/rock.jpg"  alt="" Height=150 width=150 onClick="rpsGame(this)">
-  <img id="paper" src="D:/projects/paper.png" alt="" Height=150 widht=150 onClick="rpsGame(this)">
-  <img id="scissors" src="D:/projects/scissors.jpg" alt="" Height=150 widht=150 onClick="rpsGame(this)">
-</div>
+
+  <div class="container-3">
+    <h2>Challenge 3: rock,Paper,Scissors</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+      <img id="rock" src="D:projects/rock.jpg"  alt="" Height=150 width=150 onClick="rpsGame(this)">
+      <img id="paper" src="D:/projects/paper.png" alt="" Height=150 widht=150 onClick="rpsGame(this)">
+      <img id="scissors" src="D:/projects/scissors.jpg" alt="" Height=150 widht=150 onClick="rpsGame(this)">
+    </div>
 </div>
 
- <script src="D:static/js/script.js"></script> 
 
+
+
+<div class="container-4">
+  <h2 id='change-color'>Challenge 4:Change the colors of all buttons</h2>
+  <div class='flex-box-container-pick'>
+    <form action="">
+      <select name="backdrop" id="background" onchange="buttonChangeColor(this)">
+      <option value="random">Random</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">green</option>
+      <option value="reset">reset</option>
+      </select>
+      </form>
+      <button class="btn btn-success">instagram</button>
+      <button class="btn btn-danger">facebook</button>
+      <button class="btn btn-primary">google</button>
+      <button class="btn btn-warning">whatsup</button>
+  </div>
+</div>
+
+
+<script src=" D:static/js/script.js"></script> </script>
 </body>
 </html>
